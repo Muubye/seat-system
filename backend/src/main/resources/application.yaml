@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: seat
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/seating_db
+    username: root
+    password: 2Password!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
